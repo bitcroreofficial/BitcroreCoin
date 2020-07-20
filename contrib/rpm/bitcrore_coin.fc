@@ -1,0 +1,8 @@
+/usr/bin/bitcrore_coin-cli		--	gen_context(system_u:object_r:bitcrore_coin_exec_t,s0)
+/usr/sbin/bitcrore_coind		--	gen_context(system_u:object_r:bitcrore_coin_exec_t,s0)
+/usr/lib(64)?/bitcrore_coin/bitcrore_coind		--	gen_context(system_u:object_r:bitcrore_coin_exec_t,s0)
+
+/etc/bitcrore_coin(/.*)?		gen_context(system_u:object_r:bitcrore_coin_conf_t,s0)
+/var/lib/bitcrore_coin(/.*)?		gen_context(system_u:object_r:bitcrore_coin_var_lib_t,s0)
+
+(/var)?/run/bitcrore_coind(/.*)?   gen_context(system_u:object_r:bitcrore_coin_var_run_t,s0)

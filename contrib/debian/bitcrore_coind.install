@@ -1,0 +1,3 @@
+usr/local/bin/bitcrore_coind usr/bin
+usr/local/bin/bitcrore_coin-cli usr/bin
+debian/examples/bitcrore_coin.conf etc/bitcrore_coin
